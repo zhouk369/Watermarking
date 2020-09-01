@@ -7,6 +7,9 @@ Matlab 2016b
 
 Usage:
 Main: demo.m
+
 For embedding: embed_dmjnd.p
+
 For detection: ddetect_dmjnd.p
+
 JND model: func_jnd_wan.p
