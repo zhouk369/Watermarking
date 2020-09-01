@@ -1,4 +1,4 @@
- %%%%%%%%%%%%%%%%%%%%%% 嵌入64位的水印信息
+ %%%%%%%%%%%%%%%%%%%%%% 宓屽叆64浣嶇殑姘村嵃淇℃伅
 clc
 clear all
 close all
@@ -15,8 +15,8 @@ I = double(orim_y);
 [m,n]=size(I);
 msize=m/8;nsize=n/8;
 w=imread('water.bmp');  % load watermark image
-ww=w;   %保存原始水印
-%% %%   Proposed method  
+ww=w;   %淇濆瓨鍘熷姘村嵃
+%%  Proposed method
 p=1;
 strong_stMW4 = 0.447;   % embed strength
 [jnd{p}] =  func_jnd_wan(I);  % the JND model
